@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            appId            : '267840518329982',
+            autoLogAppEvents : true,
+            xfbml            : true,
+            version          : 'v10.0'
+          });
+        };
+      </script>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+    <div class="calc">
+        <div class="calc__container">
+                <input type="text" name="calc-input" id="calc-input">
+                <div class="calc__items"><button value="1" class="calc__btn">1</button></div>
+                <div class="calc__items"><button value="2" class="calc__btn">2</button></div>
+                <div class="calc__items"><button value="3" class="calc__btn">3</button></div>
+                <div class="calc__items"><button value="+" class="calc__btn">+</button></div>
+                <div class="calc__items"><button value="4" class="calc__btn">4</button></div>
+                <div class="calc__items"><button value="5" class="calc__btn">5</button></div>
+                <div class="calc__items"><button value="6" class="calc__btn">6</button></div>
+                <div class="calc__items"><button value="-" class="calc__btn">-</button></div>
+                <div class="calc__items"><button value="7" class="calc__btn">7</button></div>
+                <div class="calc__items"><button value="8" class="calc__btn">8</button></div>
+                <div class="calc__items"><button value="9" class="calc__btn">9</button></div>
+                <div class="calc__items"><button value="*" class="calc__btn">*</button></div>
+                <div class="calc__items"><button value="c" name="clear" class="calc__btn">C</button></div>
+                <div class="calc__items"><button value="0" class="calc__btn">0</button></div>
+                <div class="calc__items"><button value="=" name="compute" class="calc__btn">=</button></div>
+                <div class="calc__items"><button value="/" class="calc__btn">/</button></div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
